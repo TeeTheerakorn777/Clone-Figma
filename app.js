@@ -1,4 +1,4 @@
-const btnMenu = document.querySelector('img[src="btn-menu.png"]');
+const btnMenu = document.querySelector('img[src="./Img/btn-menu.png"]');
 const ulMenu = document.querySelector('ul');
 
 btnMenu.addEventListener('click', function() {
