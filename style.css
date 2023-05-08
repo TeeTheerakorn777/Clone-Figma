@@ -185,6 +185,15 @@ ul li:hover {
 
 .button-search {
     margin-top: 65px;
+    display: flex;
+}
+
+.button-search img {
+    width: 90px;
+    margin: 0 2rem;
+    position: absolute;
+    left: 20rem;
+    top: 31.5rem;
 }
 
 .button-search button {
@@ -379,15 +388,22 @@ ul li:hover {
     }
 
     .button-search {
-        display: flex;
         justify-content: center;
         margin-top: 30px;
+    }
+
+    .button-search img {
+        display: none;
     }
 
     .button-search button {
         width: 90%;
         font-weight: bold;
         font-size: 0.8rem;
+    }
+
+    .button-search img {
+        width: 50px;
     }
 
     /* Slide */
