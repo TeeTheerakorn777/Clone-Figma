@@ -270,7 +270,11 @@ ul li:hover {
 }
 
 
-@media only screen and (max-width: 391px) {
+@media only screen and (max-width: 429px) {
+    body {
+        max-width: 428px;
+    }
+
     .container {
         margin: 0 5%;
         position: relative;
@@ -295,6 +299,7 @@ ul li:hover {
         border-radius: 10px;
         display: none;
         z-index: 999;
+        left: 0;
     }
 
     ul li {
@@ -368,6 +373,7 @@ ul li:hover {
         margin: 0;
         position: absolute;
         top: 9rem;
+        width: 100%;
     }
 
     .title {
@@ -428,7 +434,9 @@ ul li:hover {
     .slide2 {
         position: absolute;
         top: 1rem;
-        left: 4.5rem;
+        left: 0.5rem;
+        outline: auto;
+        width: 100%;
     }
 
     .slide p,
