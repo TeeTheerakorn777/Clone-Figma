@@ -430,13 +430,17 @@ ul li:hover {
     }
 
     .slide,
-    .slide1,
     .slide2 {
         position: absolute;
         top: 1rem;
         left: 0.5rem;
-        outline: auto;
         width: 100%;
+    }
+
+    .slide1 {
+        position: absolute;
+        top: 1rem;
+        left: 0.5rem;
     }
 
     .slide p,
