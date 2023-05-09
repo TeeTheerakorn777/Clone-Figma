@@ -1,2 +1,2 @@
 #Clone-Figma
-#Responsive : 428px
+Responsive : 428px
