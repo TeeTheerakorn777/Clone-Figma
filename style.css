@@ -30,7 +30,6 @@ nav {
 
 ul {
     display: flex;
-    padding: 0 4rem;
     margin-top: 1rem;
 }
 
@@ -300,6 +299,7 @@ ul li:hover {
         display: none;
         z-index: 999;
         left: 0;
+        padding: 0 2rem;
     }
 
     ul li {
