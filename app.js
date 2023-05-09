@@ -9,14 +9,6 @@ btnMenu.addEventListener('click', function () {
   }
 });
 
-document.addEventListener('click', function (event) {
-  const target = event.target;
-  if (!target.closest('ul') && !target.closest('img[src="./Img/btn-menu.png"]')) {
-    ulMenu.style.display = 'none';
-  }
-});
-
-
 const prevBtn = document.getElementById("prev-btn");
 const nextBtn = document.getElementById("next-btn");
 const slides = document.querySelectorAll(".slide, .slide1, .slide2");
